@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "run:android:qa": "react-native run-android --variant=QaDebug --appIdSuffix=qa",
+    "run:android:prod": "react-native run-android --variant=ProdDebug",
+    "build:android:qa:release": "cd android && ./gradlew assembleQaRelease",
+    "build:android:prod:release": "cd android && ./gradlew assembleProdRelease",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
