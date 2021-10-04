@@ -3,6 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
+project 'FruitApp',
+        'Qa.Debug' => :debug,
+        'Qa.Release' => :release,
+        'Prod.Debug' => :debug,
+        'Prod.Release' => :release
+
 target 'FruitApp' do
   config = use_native_modules!
 

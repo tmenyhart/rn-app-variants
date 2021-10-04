@@ -30,6 +30,8 @@
 		00E356EE1AD99517003FC87E /* FruitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FruitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitAppTests.m; sourceTree = "<group>"; };
+		04F0028A97D4499425BE54CC /* Pods-FruitApp.prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp.prod.debug.xcconfig"; path = "Target Support Files/Pods-FruitApp/Pods-FruitApp.prod.debug.xcconfig"; sourceTree = "<group>"; };
+		0B8AD9B19847ABD9E9F5F44A /* Pods-FruitApp-FruitAppTests.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp-FruitAppTests.qa.release.xcconfig"; path = "Target Support Files/Pods-FruitApp-FruitAppTests/Pods-FruitApp-FruitAppTests.qa.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FruitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FruitApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FruitApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -37,9 +39,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FruitApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FruitApp/main.m; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-FruitApp-FruitAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp-FruitAppTests.release.xcconfig"; path = "Target Support Files/Pods-FruitApp-FruitAppTests/Pods-FruitApp-FruitAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D36AA7D438AAB0AC16F92F8 /* Pods-FruitApp-FruitAppTests.prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp-FruitAppTests.prod.release.xcconfig"; path = "Target Support Files/Pods-FruitApp-FruitAppTests/Pods-FruitApp-FruitAppTests.prod.release.xcconfig"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-FruitApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FruitApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B59437943731ED1DDF3AB3 /* Pods-FruitApp.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp.qa.debug.xcconfig"; path = "Target Support Files/Pods-FruitApp/Pods-FruitApp.qa.debug.xcconfig"; sourceTree = "<group>"; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-FruitApp-FruitAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp-FruitAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FruitApp-FruitAppTests/Pods-FruitApp-FruitAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E262933F0B7A5FAC9797579 /* Pods-FruitApp-FruitAppTests.qa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp-FruitAppTests.qa.debug.xcconfig"; path = "Target Support Files/Pods-FruitApp-FruitAppTests/Pods-FruitApp-FruitAppTests.qa.debug.xcconfig"; sourceTree = "<group>"; };
+		71A8C491D2590088BE14A7C0 /* Pods-FruitApp-FruitAppTests.prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp-FruitAppTests.prod.debug.xcconfig"; path = "Target Support Files/Pods-FruitApp-FruitAppTests/Pods-FruitApp-FruitAppTests.prod.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FruitApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884C6DCACCCC4ECB8E704E39 /* Pods-FruitApp.qa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp.qa.release.xcconfig"; path = "Target Support Files/Pods-FruitApp/Pods-FruitApp.qa.release.xcconfig"; sourceTree = "<group>"; };
+		9D2F266EDDB7E49D2038C343 /* Pods-FruitApp.prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp.prod.release.xcconfig"; path = "Target Support Files/Pods-FruitApp/Pods-FruitApp.prod.release.xcconfig"; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-FruitApp-FruitAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FruitApp-FruitAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-FruitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp.debug.xcconfig"; path = "Target Support Files/Pods-FruitApp/Pods-FruitApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-FruitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruitApp.release.xcconfig"; path = "Target Support Files/Pods-FruitApp/Pods-FruitApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +152,14 @@
 				D00AAFFCFCFDA5787532823F /* Pods-FruitApp.release.xcconfig */,
 				6C97AB639B58BBB4B15BBE30 /* Pods-FruitApp-FruitAppTests.debug.xcconfig */,
 				1D0AE47A65C8663E3B452821 /* Pods-FruitApp-FruitAppTests.release.xcconfig */,
+				04F0028A97D4499425BE54CC /* Pods-FruitApp.prod.debug.xcconfig */,
+				69B59437943731ED1DDF3AB3 /* Pods-FruitApp.qa.debug.xcconfig */,
+				9D2F266EDDB7E49D2038C343 /* Pods-FruitApp.prod.release.xcconfig */,
+				884C6DCACCCC4ECB8E704E39 /* Pods-FruitApp.qa.release.xcconfig */,
+				71A8C491D2590088BE14A7C0 /* Pods-FruitApp-FruitAppTests.prod.debug.xcconfig */,
+				6E262933F0B7A5FAC9797579 /* Pods-FruitApp-FruitAppTests.qa.debug.xcconfig */,
+				3D36AA7D438AAB0AC16F92F8 /* Pods-FruitApp-FruitAppTests.prod.release.xcconfig */,
+				0B8AD9B19847ABD9E9F5F44A /* Pods-FruitApp-FruitAppTests.qa.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -733,7 +749,7 @@
 		};
 		CBBCDC13270AF78700D9A60C /* Qa.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-FruitApp.debug.xcconfig */;
+			baseConfigurationReference = 69B59437943731ED1DDF3AB3 /* Pods-FruitApp.qa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -763,7 +779,7 @@
 		};
 		CBBCDC14270AF78700D9A60C /* Qa.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-FruitApp-FruitAppTests.debug.xcconfig */;
+			baseConfigurationReference = 6E262933F0B7A5FAC9797579 /* Pods-FruitApp-FruitAppTests.qa.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -852,7 +868,7 @@
 		};
 		CBBCDC16270AF79B00D9A60C /* Qa.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-FruitApp.release.xcconfig */;
+			baseConfigurationReference = 884C6DCACCCC4ECB8E704E39 /* Pods-FruitApp.qa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -880,7 +896,7 @@
 		};
 		CBBCDC17270AF79B00D9A60C /* Qa.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-FruitApp-FruitAppTests.release.xcconfig */;
+			baseConfigurationReference = 0B8AD9B19847ABD9E9F5F44A /* Pods-FruitApp-FruitAppTests.qa.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -973,7 +989,7 @@
 		};
 		CBBCDC19270AF7A600D9A60C /* Prod.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-FruitApp.debug.xcconfig */;
+			baseConfigurationReference = 04F0028A97D4499425BE54CC /* Pods-FruitApp.prod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1003,7 +1019,7 @@
 		};
 		CBBCDC1A270AF7A600D9A60C /* Prod.Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-FruitApp-FruitAppTests.debug.xcconfig */;
+			baseConfigurationReference = 71A8C491D2590088BE14A7C0 /* Pods-FruitApp-FruitAppTests.prod.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1092,7 +1108,7 @@
 		};
 		CBBCDC1C270AF7AF00D9A60C /* Prod.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-FruitApp.release.xcconfig */;
+			baseConfigurationReference = 9D2F266EDDB7E49D2038C343 /* Pods-FruitApp.prod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1120,7 +1136,7 @@
 		};
 		CBBCDC1D270AF7AF00D9A60C /* Prod.Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-FruitApp-FruitAppTests.release.xcconfig */;
+			baseConfigurationReference = 3D36AA7D438AAB0AC16F92F8 /* Pods-FruitApp-FruitAppTests.prod.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
