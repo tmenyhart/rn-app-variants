@@ -4,6 +4,14 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '11.0'
 
 project 'FruitApp',
+        'Apple.Qa.Debug' => :debug,
+        'Apple.Qa.Release' => :release,
+        'Apple.Prod.Debug' => :debug,
+        'Apple.Prod.Release' => :release,
+        'Banana.Qa.Debug' => :debug,
+        'Banana.Qa.Release' => :release,
+        'Banana.Prod.Debug' => :debug,
+        'Banana.Prod.Release' => :release,
         'Qa.Debug' => :debug,
         'Qa.Release' => :release,
         'Prod.Debug' => :debug,
