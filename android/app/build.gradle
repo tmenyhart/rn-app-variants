@@ -160,8 +160,16 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
-    flavorDimensions ("environment")
+    flavorDimensions ("flavor", "environment")
     productFlavors {
+        apple {
+            dimension "flavor"
+            applicationId "com.fruitapp.apple"
+        }
+        banana {
+            dimension "flavor"
+            applicationId "com.fruitapp.banana"
+        }
         qa {
             dimension "environment"
             applicationIdSuffix ".qa"
