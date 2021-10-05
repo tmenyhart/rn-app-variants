@@ -7,7 +7,10 @@
     "run:android:prod": "react-native run-android --variant=ProdDebug",
     "build:android:qa:release": "cd android && ./gradlew assembleQaRelease",
     "build:android:prod:release": "cd android && ./gradlew assembleProdRelease",
-    "ios": "react-native run-ios",
+    "run:ios:qa": "react-native run-ios --scheme Qa.FruitApp --configuration Qa.Debug",
+    "run:ios:prod": "react-native run-ios --scheme Prod.FruitApp --configuration Prod.Debug",
+    "build:ios:qa:release": "cd ios && xcodebuild -scheme Qa.FruitApp build",
+    "build:ios:prod:release": "cd ios && xcodebuild -scheme Prod.FruitApp build",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
