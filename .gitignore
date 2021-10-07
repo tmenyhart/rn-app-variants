@@ -57,3 +57,6 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Default environment file (it will be generated during iOS builds)
+.env
