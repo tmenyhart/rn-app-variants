@@ -1,5 +1,14 @@
 apply plugin: "com.android.application"
 
+// For react-native-config
+project.ext.envConfigFiles = [
+        appleqa: ".env.apple.qa",
+        appleprod: ".env.apple.prod",
+        bananaqa: ".env.banana.qa",
+        bananaprod: ".env.banana.prod",
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 import com.android.build.OutputFile
 
 /**
@@ -131,6 +140,8 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        // For react-native-config
+        resValue "string", "build_config_package", "com.fruitapp"
     }
     splits {
         abi {
