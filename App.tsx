@@ -1,115 +1,49 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
+import React, { useCallback } from 'react';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import Config from "react-native-config";
 
-import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const Section: React.FC<{
+interface Item {
   title: string;
-}> = ({children, title}) => {
-  const isDarkMode = useColorScheme() === 'dark';
+  value: string;
+}
+
+const items: Item[] = [
+  { title: 'Flavor', value: Config.FLAVOR },
+  { title: 'Environment', value: Config.ENVIRONMENT },
+  { title: 'Base url', value: Config.BASE_URL },
+];
+
+const Styles = StyleSheet.create({
+  root: {
+    flex: 1,
+  },
+  item: {
+    backgroundColor: 'lightgray',
+    marginBottom: 4,
+    padding: 8,
+  },
+  itemTitle: {
+    fontWeight: 'bold',
+  },
+});
+
+const App = React.memo(() => {
+  const RenderItem = useCallback((item: Item, index: number) => {
+    const { title, value } = item;
+
+    return (
+      <View key={index} style={Styles.item}>
+        <Text numberOfLines={1} style={Styles.itemTitle}>{title}</Text>
+        <Text numberOfLines={1}>{value}</Text>
+      </View>
+    );
+  }, []);
+
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-};
-
-const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
+    <SafeAreaView style={Styles.root}>
+        { items.map((item, index) => RenderItem(item, index)) }
     </SafeAreaView>
   );
-};
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
 });
 
 export default App;
