@@ -2,10 +2,7 @@
 
 ## The missing guide to React Native app variants
 
-<!--
-This repository contains example code for my article published on [Medium]().
--->
-
+This repository contains example code for my article published on [Medium](https://medium.com/supercharges-mobile-product-guide/the-missing-guide-to-react-native-app-variants-part-1-c036fb99ebcc).
 
 ### Android end result
 ![Android](./.wiki/android_app_variants.png)
